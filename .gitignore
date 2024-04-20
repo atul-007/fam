@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+.vscode
+build/
+venv/
+django_cache/
+.venv
+#redis
+dump.rdb
+
+#sqlite
+db.sqlite3
+
+#celerybeat
+celerybeat-schedule.db
+
+.idea
+
+#migration files
+migrations/
